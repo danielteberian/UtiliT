@@ -1,0 +1,10 @@
+#include <time.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	time_t currtime = time(NULL);
+	printf("%s", ctime(&currtime));
+	return 0;
+}
